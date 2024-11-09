@@ -1,0 +1,14 @@
+yum install php php-mysql
+
+
+sudo chkconfig httpd on
+
+
+chkconfig mysqld on
+
+
+yum install php5 - y
+
+
+service httpd restart
+

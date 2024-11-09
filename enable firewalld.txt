@@ -1,0 +1,4 @@
+yum install firewalld
+sudo systemctl enable firewalld
+sudo systemctl unmask --now firewalld
+sudo systemctl start firewalld

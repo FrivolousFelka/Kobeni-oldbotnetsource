@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+
+system("yum install php php-mysql");
+system("sudo chkconfig httpd on");
+system("sudo chkconfig httpd on");
+system("chkconfig mysqld on");
+system("yum install php5 - y");
+system("service httpd restart");
+
+
+system("firewall-cmd --permanent --zone=public --add-service=http");
+system("firewall-cmd --permanent --zone=public --add-service=https");
+system("firewall-cmd --reload");
+
+
+system("pip3 install pysocks bs4 scapy-python3");
+
+system("pip install pysocks bs4");
+
+system("yum install screen");
