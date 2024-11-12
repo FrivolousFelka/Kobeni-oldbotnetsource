@@ -6,13 +6,12 @@
 
 ##############################
 # To Do List.\/ \/ \/ \/ \/ \/
-##############################
-# RE BRAND NIGGGGGERRRR
+#############################
 # Organize this awful shit.
 # Better attack sending.
 # Better Bot Adding??
 # Black List IP addresses like if ip == then do something or other :shrug:
-# track the users better  ^ ^^^^ ^ ^^ ^^^
+# track the users better 
 # Maybe Animations?
 # ./BASHRC EDITING!!!!!!
 ##############################
